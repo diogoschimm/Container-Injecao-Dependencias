@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTesteInjecaoDependencias", "eTesteInjecaoDependencias\eTesteInjecaoDependencias.csproj", "{464F15DE-67E9-45E3-9D07-738E0B5BC5DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464F15DE-67E9-45E3-9D07-738E0B5BC5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464F15DE-67E9-45E3-9D07-738E0B5BC5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464F15DE-67E9-45E3-9D07-738E0B5BC5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464F15DE-67E9-45E3-9D07-738E0B5BC5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283DFA91-B951-4A69-B84A-B4D9C3A45411}
+	EndGlobalSection
+EndGlobal
