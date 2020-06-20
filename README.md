@@ -22,3 +22,36 @@ Container de Injeção de Dependências do AspNetCore
   
   ....
 ```
+
+## Controller
+
+```csharp
+  ....
+
+  [Route("api/[controller]")]
+  [ApiController]
+  public class CalculadoraController : ControllerBase
+  {
+      private readonly ICalculadora _calculadora;
+
+      public CalculadoraController(ICalculadora calculadora)
+      {
+          this._calculadora = calculadora;
+      }
+
+      public string Get() => "Funcionando";
+
+
+      [HttpPost("somar")]
+      public int Somar(Valores valores)
+      {
+          return this._calculadora.Add(valores.V1, valores.V2);
+      }
+      [HttpPost("subtrair")]
+      public int Subtrair(Valores valores)
+      {
+          return this._calculadora.Sub(valores.V1, valores.V2);
+      }
+      
+ ....
+```
